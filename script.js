@@ -22,7 +22,9 @@ document.addEventListener("DOMContentLoaded", function(){
       isValid = false;
       messages.push("Email must contain '@' and '.' characters");
     }
+
     feedbackDiv.style.display = "block";
+    
     if (isValid){
       feedbackDiv.textContent = "Registration successful!";
       feedbackDiv.style.color= "#28a745";
